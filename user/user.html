@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Communication</title>
+    <link rel="stylesheet" href="h1.css" />
+    <style>
+        head{
+            background-image: url("7.jpg");
+        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0b0a0a;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .section {
+        background-color: #fff;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+      .flex-container {
+        display: flex;
+        width: 200px; /* Set width to 200px */
+        height: 200px; /* Set height to 200px */
+        background-color: #18a0af;
+        border: 1px solid #58a9df;
+        display: inline-block;
+        padding: 20px;
+        margin: 10px;
+        flex: 1;
+        overflow: hidden; /* Hide any part of the image that exceeds the container */
+      }
+
+      .flex-container img {
+        width: 100%; /* Ensure the image takes the full width of its container */
+        height: auto; /* Automatically calculate the height based on the image's aspect ratio */
+      }
+
+      /* .flex-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+  } */
+
+      #f1 {
+        background-image: url("1.png");
+        background-repeat: no-repeat;
+        max-width: 100%; /* Ensure the container doesn't exceed the viewport's width */
+        max-height: 100%;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 20px;
+        z-index: 1000;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        transition: all 0.3s ease;
+      }
+
+      .navbar a:hover {
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body style="background-color: #58ced5">
+    <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="testimonial.html">User Testimonials</a>
+      <a href="about.html">About Us</a>
+    </div>
+    <div style="margin-top:55px;background-image:url('7.jpg') ;">
+      <header>
+        <h1></h1>
+      </header>
+    </div>
+
+    <section id="emergency-info" class="section">
+    <div styles="position: relative; display: flex; align-items: center;">
+      <span class="flex-container" styles="background-color: black;">
+        <img src="1.png" />
+      </span>
+      <!-- Comment beside the image -->
+      <span styles="
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          ">
+        <b>Comment by Joseph</b><br/>
+        As a user of this website, I recently found myself in the midst of a
+        cyber attack, and I turned to this platform for assistance. I'm
+        incredibly grateful for the swift and effective support I received
+        during this challenging time. The resources provided helped me navigate
+        through the situation with clarity and confidence. Thank you for being a
+        reliable lifeline during emergencies like these.
+      </span>
+    </div>
+  </section>
+  
+
+    <section id="communication-channels" class="section">
+      <div class="flex-container" style="background-color: black">
+        <img src="2.png" />
+      </div>
+      <div
+        style="
+          height: 40px;
+          width: 100%;
+          display: inline-block;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        "
+      >
+        <b>Comment by Sam</b>
+
+        I recently used this website to seek medical treatment and connect with
+        a good hospital. I must say, I'm thoroughly impressed with the
+        efficiency and convenience it offered. From finding the right medical
+        facility to booking an appointment, everything was seamless. Thank you
+        for providing such a valuable resource in times of need.
+      </div>
+    </section>
+
+    <section id="resource-directory" class="section">
+      <div class="flex-container" style="background-color: black">
+        <img src="3.png" />
+      </div>
+      <div
+        style="
+          height: 40px;
+          width: 100%;
+          display: inline-block;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        "
+      >
+        <b>Comment by Saurav</b>
+
+        Using this website to seek help for managing my mental stress has been a
+        true lifesaver. The resources and support provided have been invaluable
+        in my journey towards better mental health. I'm grateful for the
+        accessibility and understanding offered by this platform. Thank you for
+        making a positive difference in my life
+      </div>
+    </section>
+
+    <section id="preparedness-resources" class="section">
+      <div class="flex-container" style="background-color: black">
+        <img src="5.png" />
+      </div>
+      <div
+        style="
+          height: 40px;
+          width: 100%;
+          display: inline-block;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        "
+      >
+        <b>Comment by Nicholas</b>
+
+        In times of disaster, this website has been an indispensable tool for
+        effective disaster management. From accessing crucial information to
+        coordinating emergency response efforts, this platform has played a
+        pivotal role in ensuring swift and coordinated action. I'm immensely
+        grateful for the support and resources provided, which have been
+        instrumental in mitigating the impact of disasters. Thank you for your
+        unwavering commitment to disaster management.
+      </div>
+    </section>
+
+    <section id="feedback" class="section">
+      <div class="flex-container" style="background-color: black">
+        <img src="4.png" />
+      </div>
+      <div style="height:40px; width:100%;display:inline-block;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
+      >
+      <b>Comment by Jack</b>
+      I recently used this website to contact the nearest doctor during a
+      medical emergency, and I'm incredibly impressed with the efficiency and
+      effectiveness of the service. Within moments, I was connected with a
+      doctor who provided timely assistance and guidance. This platform has
+      proven to be an invaluable resource in times of urgent need. Thank you for
+      providing such a reliable and accessible means of medical communication.
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
